@@ -113,7 +113,7 @@ export interface ApplicationBuilder {
   helmCharts: {
     navigate: NavigateToHelmCharts;
   };
-
+  navigateWith: (token: Injectable<() => void, any, void>) => void;
   select: {
     openMenu: (id: string) => ({ selectOption: (labelText: string) => void });
     selectOption: (menuId: string, labelText: string) => void;
@@ -385,6 +385,12 @@ export const getApplicationBuilder = () => {
 
         navigateToHelmCharts(parameters);
       },
+    },
+
+    navigateWith: (token) => {
+      const navigate = rendererDi.inject(token);
+
+      navigate();
     },
 
     setEnvironmentToClusterFrame: () => {
