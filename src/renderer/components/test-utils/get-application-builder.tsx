@@ -14,7 +14,7 @@ import allowedResourcesInjectable from "../../cluster-frame-context/allowed-reso
 import type { RenderResult } from "@testing-library/react";
 import { queryByText, fireEvent } from "@testing-library/react";
 import type { KubeResource } from "../../../common/rbac";
-import type { DiContainer } from "@ogre-tools/injectable";
+import type { DiContainer, Injectable } from "@ogre-tools/injectable";
 import clusterStoreInjectable from "../../../common/cluster-store/cluster-store.injectable";
 import type { ClusterStore } from "../../../common/cluster-store/cluster-store";
 import mainExtensionsInjectable from "../../../extensions/main-extensions.injectable";
