@@ -319,6 +319,7 @@ exports[`cluster - sidebar and tab navigation for extensions given extension wit
         <main>
           <div
             class="WorkloadsOverview flex column gaps"
+            data-testid="page-for-workloads-overview"
           >
             <div
               class="header flex gaps align-center"
@@ -859,6 +860,7 @@ exports[`cluster - sidebar and tab navigation for extensions given extension wit
         <main>
           <div
             class="WorkloadsOverview flex column gaps"
+            data-testid="page-for-workloads-overview"
           >
             <div
               class="header flex gaps align-center"
@@ -1439,6 +1441,7 @@ exports[`cluster - sidebar and tab navigation for extensions given extension wit
         <main>
           <div
             class="WorkloadsOverview flex column gaps"
+            data-testid="page-for-workloads-overview"
           >
             <div
               class="header flex gaps align-center"
@@ -3478,6 +3481,7 @@ exports[`cluster - sidebar and tab navigation for extensions given extension wit
         <main>
           <div
             class="WorkloadsOverview flex column gaps"
+            data-testid="page-for-workloads-overview"
           >
             <div
               class="header flex gaps align-center"
@@ -4018,6 +4022,7 @@ exports[`cluster - sidebar and tab navigation for extensions given extension wit
         <main>
           <div
             class="WorkloadsOverview flex column gaps"
+            data-testid="page-for-workloads-overview"
           >
             <div
               class="header flex gaps align-center"
