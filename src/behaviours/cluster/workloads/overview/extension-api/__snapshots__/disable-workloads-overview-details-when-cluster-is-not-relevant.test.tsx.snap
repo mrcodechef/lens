@@ -290,6 +290,7 @@ exports[`disable workloads overview details when cluster is not relevant given e
           <main>
             <div
               class="WorkloadsOverview flex column gaps"
+              data-testid="page-for-workloads-overview"
             >
               <div
                 class="header flex gaps align-center"
@@ -810,6 +811,7 @@ exports[`disable workloads overview details when cluster is not relevant given e
           <main>
             <div
               class="WorkloadsOverview flex column gaps"
+              data-testid="page-for-workloads-overview"
             >
               <div
                 class="header flex gaps align-center"
@@ -1325,6 +1327,7 @@ exports[`disable workloads overview details when cluster is not relevant given n
           <main>
             <div
               class="WorkloadsOverview flex column gaps"
+              data-testid="page-for-workloads-overview"
             >
               <div
                 class="header flex gaps align-center"

@@ -310,6 +310,7 @@ exports[`disable sidebar items when cluster is not relevant given extension shou
           <main>
             <div
               class="WorkloadsOverview flex column gaps"
+              data-testid="page-for-workloads-overview"
             >
               <div
                 class="header flex gaps align-center"
@@ -825,6 +826,7 @@ exports[`disable sidebar items when cluster is not relevant given extension shou
           <main>
             <div
               class="WorkloadsOverview flex column gaps"
+              data-testid="page-for-workloads-overview"
             >
               <div
                 class="header flex gaps align-center"
@@ -1340,6 +1342,7 @@ exports[`disable sidebar items when cluster is not relevant given not yet known 
           <main>
             <div
               class="WorkloadsOverview flex column gaps"
+              data-testid="page-for-workloads-overview"
             >
               <div
                 class="header flex gaps align-center"
