@@ -15,8 +15,6 @@ import type { RenderResult } from "@testing-library/react";
 import { queryByText, fireEvent } from "@testing-library/react";
 import type { KubeResource } from "../../../common/rbac";
 import type { DiContainer } from "@ogre-tools/injectable";
-import clusterStoreInjectable from "../../../common/cluster-store/cluster-store.injectable";
-import type { ClusterStore } from "../../../common/cluster-store/cluster-store";
 import mainExtensionsInjectable from "../../../extensions/main-extensions.injectable";
 import { pipeline } from "@ogre-tools/fp";
 import { flatMap, compact, join, get, filter, map, matches, last } from "lodash/fp";
@@ -60,7 +58,7 @@ import { RootFrame } from "../../frames/root-frame/root-frame";
 import { ClusterFrame } from "../../frames/cluster-frame/cluster-frame";
 import hostedClusterIdInjectable from "../../cluster-frame-context/hosted-cluster-id.injectable";
 import activeKubernetesClusterInjectable from "../../cluster-frame-context/active-kubernetes-cluster.injectable";
-import { catalogEntityFromCluster } from "../../../main/cluster-manager";
+import { catalogEntityFromCluster } from "../../../main/cluster/manager";
 
 type Callback = (dis: DiContainers) => void | Promise<void>;
 
@@ -146,14 +144,7 @@ export const getApplicationBuilder = () => {
 
   const dis = { rendererDi, mainDi };
 
-  const clusterStoreStub = {
-    provideInitialFromMain: () => {},
-    getById: (): null => null,
-  } as unknown as ClusterStore;
-
-  rendererDi.override(clusterStoreInjectable, () => clusterStoreStub);
   rendererDi.override(storesAndApisCanBeCreatedInjectable, () => true);
-  mainDi.override(clusterStoreInjectable, () => clusterStoreStub);
 
   const beforeApplicationStartCallbacks: Callback[] = [];
   const beforeRenderCallbacks: Callback[] = [];
