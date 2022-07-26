@@ -30,25 +30,32 @@ const clusterFrameLayoutChildComponentInjectable = getInjectable({
       shouldRender: computed(() => true),
 
       Component: observer(() => {
-        const Component = currentRouteComponent.get();
+        const components = currentRouteComponent.get();
         const starting = startUrl.get();
         const current = currentPath.get();
 
         return (
           <MainLayout sidebar={<Sidebar />} footer={<Dock />}>
-            {Component ? (
-              <Component />
-            ) : // NOTE: this check is to prevent an infinite loop
-              starting !== current ? (
-                <Redirect to={startUrl.get()} />
-              ) : (
-                <div className={styles.centering}>
-                  <div className="error">
-                    An error has occured. No route can be found matching the
-                    current route, which is also the starting route.
-                  </div>
-                </div>
-              )}
+            {
+              components.length > 0
+                ? (
+                  <>
+                    {components.map((Component, index) => <Component key={index} />)}
+                  </>
+                )
+                : starting !== current // NOTE: this check is to prevent an infinite loop
+                  ? (
+                    <Redirect to={startUrl.get()} />
+                  )
+                  : (
+                    <div className={styles.centering}>
+                      <div className="error">
+                        An error has occured. No route can be found matching the
+                        current route, which is also the starting route.
+                      </div>
+                    </div>
+                  )
+            }
           </MainLayout>
         );
       }),

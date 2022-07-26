@@ -21,14 +21,13 @@ const currentRouteComponentInjectable = getInjectable({
       const currentRoute = route.get();
 
       if (!currentRoute) {
-        return undefined;
+        return [];
       }
 
-      const routeSpecificComponent = routeComponents
+      return routeComponents
         .get()
-        .find(matches({ route: currentRoute }));
-
-      return routeSpecificComponent?.Component;
+        .filter(matches({ route: currentRoute }))
+        .map(route => route.Component);
     });
   },
 });

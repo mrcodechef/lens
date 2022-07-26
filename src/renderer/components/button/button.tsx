@@ -27,7 +27,8 @@ export interface ButtonProps extends ButtonHTMLAttributes<any> {
 
 export const Button = withTooltip((props: ButtonProps) => {
   const {
-    waiting, label, primary, accent, plain, hidden, active, big,
+    waiting = false,
+    label, primary, accent, plain, hidden, active, big,
     round, outlined, light, children, ...btnProps
   } = props;
 
@@ -49,7 +50,11 @@ export const Button = withTooltip((props: ButtonProps) => {
 
   // render as button
   return (
-    <button type="button" {...btnProps}>
+    <button
+      type="button"
+      {...btnProps}
+      data-waiting={`${waiting}`}
+    >
       {label}
       {children}
     </button>
