@@ -74,6 +74,7 @@ export class AddRoleDialog extends React.Component<AddRoleDialogProps> {
           <WizardStep
             contentClass="flex gaps column"
             nextLabel="Create"
+            disabledNext={!this.namespace || !this.roleName}
             next={this.createRole}
           >
             <SubTitle title="Role Name" />
@@ -90,7 +91,7 @@ export class AddRoleDialog extends React.Component<AddRoleDialogProps> {
               id="add-dialog-namespace-select-input"
               themeName="light"
               value={this.namespace}
-              onChange={option => this.namespace = option?.value ?? "default"}
+              onChange={option => this.namespace = option?.value ?? ""}
             />
           </WizardStep>
         </Wizard>
