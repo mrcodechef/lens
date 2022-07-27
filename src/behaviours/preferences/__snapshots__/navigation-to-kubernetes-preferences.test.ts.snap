@@ -965,6 +965,7 @@ exports[`preferences - navigation to kubernetes preferences given in preferences
                 >
                   <button
                     class="Button PathPicker primary"
+                    data-waiting="false"
                     type="button"
                   >
                     Sync Files and Folders
@@ -1077,6 +1078,7 @@ exports[`preferences - navigation to kubernetes preferences given in preferences
                       <button
                         class="Button primary"
                         data-testid="add-custom-helm-repo-button"
+                        data-waiting="false"
                         type="button"
                       >
                         Add Custom Helm Repo

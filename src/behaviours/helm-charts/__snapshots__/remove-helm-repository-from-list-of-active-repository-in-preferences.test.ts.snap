@@ -328,6 +328,7 @@ exports[`remove helm repository from list of active repositories in preferences 
                   >
                     <button
                       class="Button PathPicker primary"
+                      data-waiting="false"
                       type="button"
                     >
                       Sync Files and Folders
@@ -455,6 +456,7 @@ exports[`remove helm repository from list of active repositories in preferences 
                         <button
                           class="Button primary"
                           data-testid="add-custom-helm-repo-button"
+                          data-waiting="false"
                           type="button"
                         >
                           Add Custom Helm Repo
@@ -906,6 +908,7 @@ exports[`remove helm repository from list of active repositories in preferences 
                   >
                     <button
                       class="Button PathPicker primary"
+                      data-waiting="false"
                       type="button"
                     >
                       Sync Files and Folders
@@ -1018,6 +1021,7 @@ exports[`remove helm repository from list of active repositories in preferences 
                         <button
                           class="Button primary"
                           data-testid="add-custom-helm-repo-button"
+                          data-waiting="false"
                           type="button"
                         >
                           Add Custom Helm Repo
@@ -1491,6 +1495,7 @@ exports[`remove helm repository from list of active repositories in preferences 
                   >
                     <button
                       class="Button PathPicker primary"
+                      data-waiting="false"
                       type="button"
                     >
                       Sync Files and Folders
@@ -1603,6 +1608,7 @@ exports[`remove helm repository from list of active repositories in preferences 
                         <button
                           class="Button primary"
                           data-testid="add-custom-helm-repo-button"
+                          data-waiting="false"
                           type="button"
                         >
                           Add Custom Helm Repo
@@ -2076,6 +2082,7 @@ exports[`remove helm repository from list of active repositories in preferences 
                   >
                     <button
                       class="Button PathPicker primary"
+                      data-waiting="false"
                       type="button"
                     >
                       Sync Files and Folders
@@ -2203,6 +2210,7 @@ exports[`remove helm repository from list of active repositories in preferences 
                         <button
                           class="Button primary"
                           data-testid="add-custom-helm-repo-button"
+                          data-waiting="false"
                           type="button"
                         >
                           Add Custom Helm Repo

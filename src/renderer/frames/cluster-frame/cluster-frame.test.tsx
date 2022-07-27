@@ -82,7 +82,7 @@ describe("<ClusterFrame />", () => {
 
     describe("given no matching component", () => {
       beforeEach(() => {
-        di.override(currentRouteComponentInjectable, () => computed(() => undefined));
+        di.override(currentRouteComponentInjectable, () => computed(() => []));
       });
 
       describe("given current url is starting url", () => {

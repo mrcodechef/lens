@@ -776,6 +776,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary"
                   data-testid="install-chart-for-some-repository-some-name"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -2632,6 +2633,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -2639,6 +2641,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -3634,6 +3637,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -3641,6 +3645,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   disabled=""
                   type="button"
                 >
@@ -4612,6 +4617,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -4619,6 +4625,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -5585,6 +5592,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -5592,6 +5600,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -6577,6 +6586,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -6584,6 +6594,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   disabled=""
                   type="button"
                 >
@@ -7553,6 +7564,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -7560,6 +7572,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -8555,6 +8568,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -8562,6 +8576,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -9535,6 +9550,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -9542,6 +9558,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   disabled=""
                   type="button"
                 >
@@ -10381,6 +10398,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary"
                   data-testid="show-release-some-release-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   View Helm Release
@@ -10388,6 +10406,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain active"
                   data-testid="show-execution-output-for-some-release-in-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Show Notes
@@ -11989,6 +12008,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary"
                   data-testid="show-release-some-release-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   View Helm Release
@@ -11996,6 +12016,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain active"
                   data-testid="show-execution-output-for-some-release-in-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Show Notes
@@ -12042,6 +12063,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <button
               class="Button plain"
+              data-waiting="false"
               type="button"
             >
               <i
@@ -12058,6 +12080,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
             </button>
             <button
               class="Button plain"
+              data-waiting="false"
               type="button"
             >
               Close
@@ -13018,6 +13041,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -13025,6 +13049,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -13140,6 +13165,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary"
                   data-testid="install-chart-for-some-repository-some-other-name"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -15090,6 +15116,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-second-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -15097,6 +15124,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-second-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -16110,6 +16138,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -16117,6 +16146,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -17083,6 +17113,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -17090,6 +17121,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -18056,6 +18088,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button plain"
                   data-testid="cancel-install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Cancel
@@ -18063,6 +18096,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
                 <button
                   class="Button primary active"
                   data-testid="install-chart-from-tab-for-some-first-tab-id"
+                  data-waiting="false"
                   type="button"
                 >
                   Install

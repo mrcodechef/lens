@@ -24,7 +24,7 @@ import watchForGeneralEntityNavigationInjectable from "../../api/helpers/watch-f
 
 interface Dependencies {
   catalogPreviousActiveTabStorage: StorageLayer<string | null>;
-  currentRouteComponent: IComputedValue<React.ElementType | undefined>;
+  currentRouteComponent: IComputedValue<React.ElementType[]>;
   welcomeUrl: string;
   watchForGeneralEntityNavigation: WatchForGeneralEntityNavigation;
 }
@@ -38,9 +38,9 @@ class NonInjectedClusterManager extends React.Component<Dependencies> {
   }
 
   render() {
-    const Component = this.props.currentRouteComponent.get();
+    const components = this.props.currentRouteComponent.get();
 
-    if (!Component) {
+    if (components.length === 0) {
       return <Redirect exact to={this.props.welcomeUrl} />;
     }
 
@@ -49,7 +49,7 @@ class NonInjectedClusterManager extends React.Component<Dependencies> {
         <TopBar />
         <main>
           <div id="lens-views" />
-          <Component />
+          {components.map((Component, index) => <Component key={index} />)}
         </main>
         <HotbarMenu />
         <StatusBar />

@@ -312,6 +312,7 @@ exports[`extensions - navigation using application menu when navigating to exten
                   >
                     <button
                       class="Button w-80 h-full primary"
+                      data-waiting="false"
                       type="button"
                     >
                       Install

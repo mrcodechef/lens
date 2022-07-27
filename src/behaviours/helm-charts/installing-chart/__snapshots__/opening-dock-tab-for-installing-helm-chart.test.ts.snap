@@ -2702,6 +2702,7 @@ exports[`opening dock tab for installing helm chart given application is started
                 <button
                   class="Button primary"
                   data-testid="install-chart-for-some-repository-some-name"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -3613,6 +3614,7 @@ exports[`opening dock tab for installing helm chart given application is started
                 <button
                   class="Button primary"
                   data-testid="install-chart-for-some-repository-some-name"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -4534,6 +4536,7 @@ exports[`opening dock tab for installing helm chart given application is started
                 <button
                   class="Button primary"
                   data-testid="install-chart-for-some-repository-some-name"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
@@ -5445,6 +5448,7 @@ exports[`opening dock tab for installing helm chart given application is started
                 <button
                   class="Button primary"
                   data-testid="install-chart-for-some-repository-some-name"
+                  data-waiting="false"
                   type="button"
                 >
                   Install
